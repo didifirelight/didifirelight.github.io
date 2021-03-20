@@ -3,23 +3,16 @@ html {
     overflow-y: scroll;
 }
 
-a {
-    color: rgb(0,105,217);
-}
-a:visited {
-    color: rgb(153,128,161);
-}
-
 body#wholeDocument {
     -webkit-text-size-adjust:none; 
     font-family: Helvetica, sans-serif; 
     font-size: 12px;
-color: rgb(87,110,117);
+color: rgb(89,89,89);
     font-family: "HanziPen SC", sans-serif; 
     font-size: 15px;
     text-align: justify;
     line-height: 1.8;
-    background-color: rgba(4,140,158,0.153012);
+    background-color: rgba(255,255,255,0.153012);
     
 }
 /* height hack to make nested divs set to 100% height work in Chrome and Firefox */
@@ -82,7 +75,7 @@ div.force-wrap {
 }
 tr#header {
 
-        border-bottom: 1px solid rgba(255,255,255,0.25);
+        border-bottom: 1px solid rgba(0,0,0,0.25);
     
 }
 /* This is the table used for just the outline column/note column and is nested in the cell for the outline column of the row */
@@ -329,7 +322,7 @@ tr.note-row td.note-bg {
 
 }
 table.whole-row, table.whole-note, table#column-header, div.temp-wrapper {
-width: 377px;
+width: 404px;
 
 }
 /******************
@@ -347,12 +340,12 @@ tr#header td:nth-of-type(1), tr.outline-row > td:nth-of-type(1), tr.note-row > t
     max-width: 20px; 
 }
 table.outline-column { 
-    width: 357px; 
-    max-width: 357px; 
+    width: 384px; 
+    max-width: 384px; 
 }
 tr#header td:nth-of-type(2), tr.outline-row > td:nth-of-type(2) { 
-    width: 357px; 
-    max-width: 357px; 
+    width: 384px; 
+    max-width: 384px; 
     
 }
 
